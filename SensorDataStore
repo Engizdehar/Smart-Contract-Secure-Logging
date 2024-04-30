@@ -16,7 +16,7 @@ _grantRole (Admin , msg . sender );
 
 bytes32 private constant Admin = keccak256 (abi. encodePacked (" Admin ")) ;
 bytes32 public constant Read = keccak256 ( abi . encodePacked (" Read "));
- ytes32 public constant Write = keccak256 (abi. encodePacked (" Write "));
+bytes32 public constant Write = keccak256 (abi. encodePacked (" Write "));
 
 
 modifier onlyRole ( bytes32 _role ) {
